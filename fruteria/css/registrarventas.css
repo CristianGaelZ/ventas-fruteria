@@ -1,0 +1,109 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px; /* Espacio alrededor del contenido */
+    display: flex;
+    flex-direction: column; /* Alinear elementos en columna */
+    align-items: center; /* Centrar elementos horizontalmente */
+}
+
+/* Estilo para el botón de volver atrás */
+.btn {
+    background-color: #295f98;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px; /* Espacio debajo del botón */
+    text-align: center;
+}
+
+/* Estilo para el título */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+/* Estilo para el formulario */
+form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px; /* Ancho máximo de la tabla */
+    width: 100%; /* Ancho completo */
+    text-align: center; /* Centrar texto en el formulario */
+}
+
+/* Estilo para las etiquetas */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left; /* Alinear etiquetas a la izquierda */
+}
+
+/* Estilo para los inputs y selects */
+input, select {
+    width: 100%; /* Ancho completo */
+    padding: 8px; /* Espacio interno */
+    margin-bottom: 15px; /* Espacio entre elementos */
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir padding y borde en el ancho total */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+/* Estilo para los botones del formulario */
+button {
+    background-color: #172181;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Espacio interno del botón */
+    font-size: 16px; /* Tamaño de fuente */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor a mano */
+    width: 100%; /* Ancho completo */
+}
+
+/* Efecto hover para botones */
+button:hover {
+    background-color: #172181; /* Color al pasar el ratón */
+}
+
+/* Estilo para el enlace "Volver al Inicio" */
+a.btn {
+    margin-top: 20px; /* Espacio arriba del enlace */
+    text-decoration: none; /* Sin subrayado */
+    color: white; /* Color del texto */
+    background-color: #da1111; /* Color de fondo */
+    padding: 10px 20px; /* Espacio interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Efecto hover para el enlace */
+a.btn:hover {
+    background-color: #680505; /* Color al pasar el ratón */
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+        max-width: 100%; /* Ancho completo en pantallas pequeñas */
+    }
+
+    input, select {
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+    }
+
+    button {
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+    }
+}

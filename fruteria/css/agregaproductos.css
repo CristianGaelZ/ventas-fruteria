@@ -1,0 +1,125 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4ff;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Título */
+.title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Estilo del formulario */
+.form-producto {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* Ajusta el ancho máximo del formulario */
+}
+
+/* Estilo para las etiquetas e inputs */
+label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Botón base */
+buttons {
+  background-color: #2196F3;
+  color: white;
+  padding: 10px 15px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+
+.btn {
+  background-color: #2196F3;
+  color: white;
+  padding: 10px 15px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  
+}
+.btn2 {
+  background-color: #2196F3;
+  color: white;
+  padding: 10px 15px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+
+/* Estilo para "Volver Atrás" */
+.btn-back {
+  background-color: #007bff;
+  color: white;
+  width: 100%;           /* Ancho completo */
+
+}
+
+.btn-back:hover {
+  background-color: #1931e6;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para "Volver al Inicio" */
+.btn-inicio {
+  background-color: #ed2e2e;
+  color: white;
+}
+
+.btn-inicio:hover {
+  background-color: #800a0a;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .form-producto {
+      width: 90%; /* Hacer el formulario más ancho en pantallas pequeñas */
+  }
+
+  .btn {
+      font-size: 12px;
+  }
+}

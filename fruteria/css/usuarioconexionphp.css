@@ -1,0 +1,62 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px; /* Espacio alrededor del contenido */
+    display: flex;
+    flex-direction: column; /* Alinear elementos en columna */
+    align-items: center; /* Centrar elementos horizontalmente */
+}
+
+/* Estilo para el botón de volver atrás y al inicio */
+.btn {
+    background-color: #e74c3c; /* Rojo para los botones */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px; /* Espacio debajo del botón */
+}
+
+/* Estilo para el formulario */
+form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px; /* Ancho máximo del formulario */
+    width: 100%; /* Ancho completo */
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+/* Estilo para las etiquetas y campos del formulario */
+label {
+    display: block; /* Mostrar etiquetas como bloque */
+    margin: 10px 0 5px; /* Espaciado */
+}
+
+input, select {
+    width: 100%;
+    padding: 8px; /* Espacio interno */
+    margin-bottom: 15px; /* Espacio entre campos */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo para el botón de actualización */
+button[type="submit"] {
+    background-color: #295f98; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espacio interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor a mano */
+}
+
+/* Efecto hover para botones */
+button[type="submit"]:hover {
+    background-color: #172181; /* Color al pasar el ratón */
+}

@@ -1,0 +1,152 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Ajustes para subir los botones y el formulario */
+form, .btn-back {
+  margin-top: 20px; /* Reduce el margen superior solo en los botones */
+}
+
+/* Ajustes para el formulario de búsqueda */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0; /* Añadimos un margen superior e inferior para separarlos de otros elementos */
+}
+/* Título */
+.title {
+  text-align: center;
+  margin: 50px 0; /* Espaciado superior e inferior */
+  font-size: 24px; /* Tamaño del texto */
+  color: #333; /* Color del texto */
+}
+
+
+/* Estilo para la tabla */
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-bottom: 80px; /* Mantener el margen inferior de la tabla */
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #ddd;
+  font-size: 16px;
+}
+
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Botón base */
+.btn {
+  padding: 10px 15px;
+  font-size: 14px; /* Aumentar ligeramente el tamaño del texto */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px; /* Margen más pequeño para los botones */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Botón para "Volver Atrás" */
+.btn-back {
+  background-color: #2196F3;
+  color: white;
+}
+
+.btn-back:hover {
+  background-color: #1931e6;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+/* Contenedor para centrar botones */
+.btn-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Botón para "Volver al Inicio" */
+.btn-inicio {
+  background-color: #ed2e2e;
+  color: white;
+}
+
+.btn-inicio:hover {
+  background-color: #800a0a;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón de búsqueda */
+.btn-buscar {
+  background-color: #2196F3;
+  color: white;
+}
+
+.btn-buscar:hover {
+  background-color: #1931e6;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón para "Editar" */
+.btn-editar {
+  background-color: #2196F3;
+  color: white;
+}
+
+.btn-editar:hover {
+  background-color: #1931e6;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+/* Botón para "Editar" */
+.btn-eliminar {
+  background-color: #f32121;
+  color: white;
+}
+
+.btn-eliminar:hover {
+  background-color: #930a0a;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Input de búsqueda */
+input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 300px;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  table th, table td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

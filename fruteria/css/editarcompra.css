@@ -1,0 +1,123 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para el botón de volver atrás */
+.btn {
+    background-color: #0c2677;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.btn:hover {
+    background-color: #041139;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.inicio {
+    background-color: #db1313;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.inicio:hover {
+    background-color: #350303;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* Estilo para el título */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el formulario */
+form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+/* Estilo para las etiquetas del formulario */
+label {
+    display: block; /* Hacer que cada etiqueta ocupe su propia línea */
+    margin-bottom: 5px; /* Espacio debajo de las etiquetas */
+}
+
+/* Estilo para los campos de entrada */
+input[type="number"], select {
+    width: calc(100% - 20px); /* Ancho completo menos margen */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde del campo de texto */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 15px; /* Espacio debajo de los campos */
+}
+
+/* Estilo para el botón de actualizar */
+button[type="submit"] {
+    background-color: #007bff; /* Color azul para el botón de actualización */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+/* Efecto hover para el botón de actualizar */
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Color azul más oscuro al pasar el mouse */
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    input, select {
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+    }
+
+    button {
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+    }
+}

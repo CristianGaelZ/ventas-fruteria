@@ -1,0 +1,32 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.table th, .table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.table tr {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+.table tr:nth-of-type(even) {
+    background-color: #f2f2f2;
+}
+
+
+.table thead th {
+    font-weight: bold;
+    color: #060606;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}

@@ -1,0 +1,133 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar contenido en el eje horizontal */
+}
+
+/* Título */
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la tabla */
+.user-table {
+    width: 80%; /* Ancho de la tabla */
+    border-collapse: collapse; /* Eliminar espacio entre bordes */
+    margin-bottom: 20px; /* Espacio debajo de la tabla */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para un efecto elevado */
+}
+
+.user-table th, .user-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd; /* Borde de la tabla */
+    font-size: 16px; /* Tamaño de texto */
+}
+
+.user-table th {
+    background-color: #1931e6; /* Color de fondo para encabezados */
+    color: white; /* Color del texto de encabezados */
+}
+
+/* Botón base */
+.btn {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px; /* Espacio entre botones */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Botón para "Volver Atrás" */
+.btn-back {
+    background-color: #2196F3;
+    color: white;
+}
+
+.btn-back:hover {
+    background-color: #1931e6;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón de búsqueda */
+.btn-buscar {
+    background-color: #2196F3;
+    color: white;
+}
+
+.btn-buscar:hover {
+    background-color: #1931e6;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón para "Eliminar" */
+.btn-eliminar {
+    background-color: #ed2e2e;
+    color: white;
+}
+
+.btn-eliminar:hover {
+    background-color: #800a0a;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón para "Editar" */
+.btn-editar {
+    background-color: #2196F3;
+    color: white;
+}
+
+.btn-editar:hover {
+    background-color: #1931e6;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón para "Volver al Inicio" */
+.btninicio {
+    background-color: #f32121;
+    color: white;
+    margin-top: 20px; /* Espacio arriba */
+}
+
+.btninicio:hover {
+    background-color: #4d0303;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Input de búsqueda */
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 300px; /* Ancho del input */
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    .user-table th, .user-table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+
+    input[type="text"] {
+        width: 100%; /* Hacer input del ancho completo en móviles */
+        margin-bottom: 10px; /* Espacio debajo */
+    }
+}

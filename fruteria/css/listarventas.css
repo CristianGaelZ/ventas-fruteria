@@ -1,0 +1,153 @@
+/* Estilo general del cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0px; /* Espacio alrededor del contenido */
+  display: flex;
+  flex-direction: column; /* Alinear elementos en columna */
+  align-items: center; /* Centrar elementos horizontalmente */
+}
+
+/* Estilo para el botón de volver atrás */
+.btn-1{
+  background-color: rgb(0, 8, 255); /* Color rojo para el botón */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px; /* Espacio debajo del botón */
+  text-align: center;
+  width: 100%;           /* Ancho completo */
+
+}
+.btn{
+  background-color: red; /* Color rojo para el botón */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px; /* Espacio debajo del botón */
+  text-align: center;
+}
+.btn:hover{
+  background-color: rgb(76, 10, 10); /* Color rojo para el botón */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px; /* Espacio debajo del botón */
+  text-align: center;
+}
+
+
+/* Estilo para el título */
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+/* Estilo para el formulario de búsqueda */
+form {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px; /* Ancho máximo del formulario */
+  width: 100%; /* Ancho completo */
+  text-align: center; /* Centrar texto en el formulario */
+  margin-bottom: 20px; /* Espacio debajo del formulario */
+}
+
+/* Estilo para la tabla de ventas */
+table {
+  border-collapse: collapse; /* Colapsar bordes */
+  width: 80%; /* Ancho de la tabla */
+  margin: 20px 0; /* Espacio arriba y abajo de la tabla */
+}
+
+/* Estilo para las celdas de la tabla */
+th, td {
+  border: 1px solid #ccc; /* Borde de las celdas */
+  padding: 12px; /* Espacio interno */
+  text-align: left; /* Alinear texto a la izquierda */
+}
+
+/* Estilo para las cabeceras de la tabla */
+th {
+  background-color: #295f98; /* Color de fondo de las cabeceras */
+  color: white; /* Color del texto de las cabeceras */
+}
+
+/* Estilo para las filas de la tabla */
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Color de fondo alterno para filas */
+}
+
+/* Estilo para los botones en la tabla */
+button {
+  background-color: #295f98; /* Color de fondo del botón */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  padding: 10px 10px; /* Espacio interno del botón */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambiar cursor a mano */
+  
+}
+
+/* Efecto hover para botones */
+button:hover {
+  background-color: #172181; /* Color al pasar el ratón */
+  
+}
+
+/* Estilo para los totales */
+h3 {
+  margin: 10px 0; /* Espacio arriba y abajo de los totales */
+  color: #333; /* Color del texto de los totales */
+  
+}
+
+/* Estilo para la tabla de totales */
+.table-totales {
+  border-collapse: collapse; /* Colapsar bordes */
+  margin: 20px 0; /* Espacio arriba y abajo */
+  width: 80%; /* Ancho de la tabla de totales */
+}
+
+/* Estilo para las celdas de la tabla de totales */
+.table-totales th, .table-totales td {
+  border: 1px solid #ccc; /* Borde de las celdas */
+  padding: 10px; /* Espacio interno */
+  text-align: left; /* Alinear texto a la izquierda */
+}
+
+/* Cabeceras de la tabla de totales */
+.table-totales th {
+  background-color: #f2f2f2; /* Color de fondo de las cabeceras */
+  color: rgb(0, 0, 0); /* Color del texto de las cabeceras */
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 600px) {
+  form {
+      padding: 15px;
+      max-width: 100%; /* Ancho completo en pantallas pequeñas */
+  }
+
+  input, select {
+      font-size: 14px; /* Tamaño de fuente más pequeño */
+  }
+
+  button {
+      font-size: 14px; /* Tamaño de fuente más pequeño */
+  }
+}

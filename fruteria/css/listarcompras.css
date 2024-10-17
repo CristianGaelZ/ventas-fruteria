@@ -1,0 +1,158 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Estilo para el botón de volver atrás y volver al inicio */
+  .btn {
+    background-color: #295f98; /* Color del botón */
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 10; /* Espacio arriba y abajo del botón */
+    text-align: center;
+    width: 100%;           /* Ancho completo */
+
+  }
+  .btn:hover {
+    background-color: #0a2542; /* Color del botón */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0; /* Espacio arriba y abajo del botón */
+    text-align: center;
+  }
+  .btn1 {
+  padding: 10px 15px;
+  font-size: 14px; /* Aumentar ligeramente el tamaño del texto */
+  border: none;
+  background-color: #295f98; /* Color del botón */
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px; /* Margen más pequeño para los botones */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
+  }
+  .btn1:hover {
+    padding: 10px 15px;
+    font-size: 14px; /* Aumentar ligeramente el tamaño del texto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px; /* Margen más pequeño para los botones */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  /* Espacio adicional para el botón "Volver al Inicio" */
+  .btn:last-child {
+    margin-top: 30px; /* Espacio adicional solo para el botón de inicio */
+  }
+  .btn-1 {
+    background-color: #b82828; /* Color del botón */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0; /* Espacio arriba y abajo del botón */
+    text-align: center;
+  }
+  .btn-1:hover {
+    background-color: #b82828; /* Color del botón */
+    color: rgb(81, 13, 13);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0; /* Espacio arriba y abajo del botón */
+    text-align: center;
+  }
+
+  
+  /* Estilo para las tablas */
+  table {
+    border-collapse: collapse; /* Colapsar bordes */
+    width: 60%; /* Ancho de la tabla */
+    margin: 20px 0; /* Espacio arriba y abajo de la tabla */
+  }
+  
+  /* Estilo para las celdas de la tabla */
+  th, td {
+    border: 1px solid #ccc; /* Borde de las celdas */
+    padding: 12px; /* Espacio interno */
+    text-align: left; /* Alinear texto a la izquierda */
+  }
+  
+  /* Estilo para las cabeceras de la tabla */
+  th {
+    background-color: #295f98; /* Color de fondo de las cabeceras */
+    color: white; /* Color del texto de las cabeceras */
+  }
+  
+  /* Estilo para las filas de la tabla */
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo alterno para filas */
+  }
+  
+  /* Estilo para los totales */
+  h3 {
+    margin: 10px 0; /* Espacio arriba y abajo de los totales */
+    color: #333; /* Color del texto de los totales */
+  }
+  
+  /* Estilo para la tabla de totales */
+  .table-totales {
+    border-collapse: collapse; /* Colapsar bordes */
+    margin: 20px 0; /* Espacio arriba y abajo */
+    width: 40%; /* Ancho de la tabla de totales */
+  }
+  
+  /* Estilo para las celdas de la tabla de totales */
+  .table-totales th, .table-totales td {
+    border: 1px solid #cccccc; /* Borde de las celdas */
+    padding: 10px; /* Espacio interno */
+    text-align: left; /* Alinear texto a la izquierda */
+  }
+  
+  /* Cabeceras de la tabla de totales */
+  .table-totales th {
+    background-color: #4791c6; /* Color de fondo de las cabeceras */
+    color: rgb(0, 0, 0); /* Color del texto de las cabeceras */
+  }
+  
+  /* Media query para dispositivos móviles */
+  @media (max-width: 600px) {
+    form {
+        padding: 15px;
+        max-width: 100%; /* Ancho completo en pantallas pequeñas */
+    }
+  
+    input, select {
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+    }
+  
+    button {
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+    }
+  }
+  
